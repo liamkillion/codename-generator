@@ -4,6 +4,7 @@ let unit = document.getElementById('unit')
 
 generateCodename = function() {
   let animal = animals[Math.floor(Math.random() * animals.length)]
+  debugger
   let animalCapitalized = animal[0].toUpperCase() + animal.slice(1)
   let adjective = adjectives[Math.floor(Math.random() * adjectives.length)]
   let name = `${adjective} ${animalCapitalized}`
